@@ -1,10 +1,12 @@
 from ursina import *
+app = Ursina(fullscreen=True)
 from ursina.prefabs.first_person_controller import FirstPersonController
 from PIL import Image
 import random
 import math
 
 app = Ursina()
+
 
 dunya = {}
 secili_blok = 1
